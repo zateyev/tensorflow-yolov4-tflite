@@ -10,7 +10,8 @@ import numpy as np
 import tensorflow as tf
 
 flags.DEFINE_string('framework', 'tf', '(tf, tflite')
-flags.DEFINE_string('weights', './data/yolov4.weights',
+# flags.DEFINE_string('weights', './checkpoints/tf_softplus/yolov4',
+flags.DEFINE_string('weights', './checkpoints/yolov4',
                     'path to weights file')
 flags.DEFINE_integer('size', 608, 'resize images to')
 flags.DEFINE_boolean('tiny', False, 'yolo or yolo-tiny')
@@ -33,7 +34,7 @@ def main(_argv):
     video_path = FLAGS.video
 
     print("Video from: ", video_path )
-    vid = cv2.VideoCapture(video_path)
+    vid = cv2.VideoCapture(0)
 
     if FLAGS.framework == 'tf':
         input_layer = tf.keras.layers.Input([input_size, input_size, 3])

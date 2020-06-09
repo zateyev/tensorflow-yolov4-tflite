@@ -23,7 +23,8 @@ def main(_argv):
     testset = Dataset('test')
     logdir = "./data/log"
     isfreeze = False
-    steps_per_epoch = len(trainset)
+    # steps_per_epoch = len(trainset)
+    steps_per_epoch = cfg.TRAIN.BATCH_SIZE
     first_stage_epochs = cfg.TRAIN.FISRT_STAGE_EPOCHS
     second_stage_epochs = cfg.TRAIN.SECOND_STAGE_EPOCHS
     global_steps = tf.Variable(1, trainable=False, dtype=tf.int64)

@@ -8,8 +8,10 @@ import core.utils as utils
 import os
 from core.config import cfg
 
-flags.DEFINE_string('weights', './data/yolov4.weights', 'path to weights file')
-flags.DEFINE_string('output', './data/yolov4.tflite', 'path to output')
+# flags.DEFINE_string('weights', './data/yolov4.weights', 'path to weights file')
+flags.DEFINE_string('weights', './checkpoints/yolov4', 'path to weights file')
+# flags.DEFINE_string('output', './data/yolov4.tflite', 'path to output')
+flags.DEFINE_string('output', './data/udl.tflite', 'path to output')
 flags.DEFINE_boolean('tiny', False, 'path to output')
 flags.DEFINE_integer('input_size', 416, 'path to output')
 flags.DEFINE_string('model', 'yolov4', 'yolov3 or yolov4')
@@ -56,7 +58,8 @@ def save_tflite():
         bbox_tensor = decode(fm, NUM_CLASS, i)
         bbox_tensors.append(bbox_tensor)
       model = tf.keras.Model(input_layer, bbox_tensors)
-      utils.load_weights(model, FLAGS.weights)
+      # utils.load_weights(model, FLAGS.weights)
+      model.load_weights(FLAGS.weights).expect_partial()
 
   model.summary()
 

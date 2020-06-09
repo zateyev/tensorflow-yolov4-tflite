@@ -47,16 +47,22 @@ def convolutional(input_layer, filters_shape, downsample=False, activate=True, b
 
     return conv
 def softplus(x, threshold = 20.):
-    def f1():
+    def f1(x):
         return x
-    def f2():
+    def f2(x):
         return tf.exp(x)
-    def f3():
+    def f3(x):
         return tf.math.log(1 + tf.exp(x))
     # mask = tf.greater(x, threshold)
     # x = tf.exp(x[mask])
     # return tf.exp(x)
-    return tf.case([(tf.greater(x, tf.constant(threshold)), lambda:f1()), (tf.less(x, tf.constant(-threshold)), lambda:f2())], default=lambda:f3())
+    # return tf.case([(tf.greater(x, tf.constant(threshold)), lambda:f1()), (tf.less(x, tf.constant(-threshold)), lambda:f2())], default=lambda:f3())
+
+    # return tf.case([(tf.greater(x, tf.constant(threshold)), tf.keras.layers.Lambda(lambda x:f1(x))(x)), (tf.less(x, tf.constant(-threshold)), tf.keras.layers.Lambda(lambda x:f2(x))(x))], default=tf.keras.layers.Lambda(lambda x:f3(x))(x))
+
+    # return tf.math.softplus(x)
+    return tf.nn.leaky_relu(x, alpha=0.1)
+    # return tf.case([(tf.greater_equal(x, tf.constant(0)), lambda:x), (tf.less(x, tf.constant(0)), lambda:0.01 * x)], default=lambda:x)
     # return tf.case([(tf.greater(x, threshold), lambda:f1())])
 def mish(x):
     return tf.keras.layers.Lambda(lambda x: x*tf.tanh(tf.math.log(1+tf.exp(x))))(x)
