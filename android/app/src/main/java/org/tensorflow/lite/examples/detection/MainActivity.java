@@ -32,7 +32,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final float MINIMUM_CONFIDENCE_TF_OD_API = 0.6f;
+    public static final float MINIMUM_CONFIDENCE_TF_OD_API = 0.65f;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,7 +59,8 @@ public class MainActivity extends AppCompatActivity {
             }).start();
 
         });
-        this.sourceBitmap = Utils.getBitmapFromAsset(MainActivity.this, "udl29.jpg");
+//        this.sourceBitmap = Utils.getBitmapFromAsset(MainActivity.this, "udl29.jpg");
+        this.sourceBitmap = Utils.getBitmapFromAsset(MainActivity.this, "udl40.jpg");
 
         this.cropBitmap = Utils.processBitmap(sourceBitmap, TF_OD_API_INPUT_SIZE);
 

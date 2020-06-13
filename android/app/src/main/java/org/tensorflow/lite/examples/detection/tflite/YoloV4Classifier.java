@@ -165,11 +165,11 @@ public class YoloV4Classifier implements Classifier {
 
     //config yolov4
     private static final int INPUT_SIZE = 416;
-    private static final int[] OUTPUT_WIDTH = new int[]{52, 26, 13};
+    private static final int[] OUTPUT_WIDTH = new int[]{26, 13, 13};
 
     private static final int[][] MASKS = new int[][]{{0, 1, 2}, {3, 4, 5}, {6, 7, 8}};
     private static final int[] ANCHORS = new int[]{
-            12, 16, 19, 36, 40, 28, 36, 75, 76, 55, 72, 146, 142, 110, 192, 243, 459, 401
+            10,13, 16,30, 33,23, 30,61, 62,45, 59,119, 116,90, 156,198, 373,326
     };
     private static final float[] XYSCALE = new float[]{1.2f, 1.1f, 1.05f};
 
@@ -294,19 +294,43 @@ public class YoloV4Classifier implements Classifier {
         return byteBuffer;
     }
 
+    private float[][][][][] outputLocations;
+    // outputClasses: array of shape [Batchsize, NUM_DETECTIONS]
+    // contains the classes of detected boxes
+    private float[][][][][] outputClasses;
+    // outputScores: array of shape [Batchsize, NUM_DETECTIONS]
+    // contains the scores of detected boxes
+    private float[][][][][] outputScores;
+    // numDetections: array of shape [Batchsize]
+    // contains the number of detected boxes
+    private float[][][][][] numDetections;
+    private static final int NUM_DETECTIONS = 10;
     public ArrayList<Recognition> recognizeImage(Bitmap bitmap) {
         ByteBuffer byteBuffer = convertBitmapToByteBuffer(bitmap);
 
-        Map<Integer, Object> outputMap = new HashMap<>();
+        /*Map<Integer, Object> outputMap = new HashMap<>();
         for (int i = 0; i < OUTPUT_WIDTH.length; i++) {
             float[][][][][] out = new float[1][OUTPUT_WIDTH[i]][OUTPUT_WIDTH[i]][3][5 + labels.size()];
             outputMap.put(i, out);
-        }
+        }*/
+        outputLocations = new float[1][OUTPUT_WIDTH[0]][OUTPUT_WIDTH[0]][3][85];
+        outputClasses = new float[1][OUTPUT_WIDTH[1]][OUTPUT_WIDTH[1]][3][85];
+        outputScores = new float[1][OUTPUT_WIDTH[2]][OUTPUT_WIDTH[2]][3][85];
+        numDetections = new float[1][OUTPUT_WIDTH[2]][OUTPUT_WIDTH[2]][3][85];
+
+        Map<Integer, Object> outputMap = new HashMap<>();
+        outputMap.put(0, outputLocations);
+        outputMap.put(1, outputClasses);
+//        outputMap.put(2, outputScores);
+//        outputMap.put(3, numDetections);
+
 
         Log.d("YoloV4Classifier", "mObjThresh: " + getObjThresh());
 
         Object[] inputArray = {byteBuffer};
+        long tick = System.currentTimeMillis();
         tfLite.runForMultipleInputsOutputs(inputArray, outputMap);
+        Log.d("YoloV4Classifier", "runForMultipleInputsOutputs end: " + (System.currentTimeMillis() - tick) + " ms");
 
         ArrayList<Recognition> detections = new ArrayList<Recognition>();
 
@@ -314,6 +338,7 @@ public class YoloV4Classifier implements Classifier {
             int gridWidth = OUTPUT_WIDTH[i];
             float[][][][][] out = (float[][][][][]) outputMap.get(i);
 
+            tick = System.currentTimeMillis();
             Log.d("YoloV4Classifier", "out[" + i + "] detect start");
             for (int y = 0; y < gridWidth; ++y) {
                 for (int x = 0; x < gridWidth; ++x) {
@@ -323,6 +348,7 @@ public class YoloV4Classifier implements Classifier {
                                         + (NUM_BOXES_PER_BLOCK * (labels.size() + 5)) * x
                                         + (labels.size() + 5) * b;
 
+                        if (out == null) continue;
                         final float confidence = expit(out[0][y][x][b][4]);
                         int detectedClass = -1;
                         float maxClass = 0;
@@ -362,7 +388,7 @@ public class YoloV4Classifier implements Classifier {
                     }
                 }
             }
-            Log.d("YoloV4Classifier", "out[" + i + "] detect end");
+            Log.d("YoloV4Classifier", "out[" + i + "] detect end " + (System.currentTimeMillis() - tick) + " ms");
         }
 
         final ArrayList<Recognition> recognitions = nms(detections);

@@ -10,13 +10,15 @@ import numpy as np
 import tensorflow as tf
 
 flags.DEFINE_string('framework', 'tf', '(tf, tflite')
-# flags.DEFINE_string('weights', './checkpoints/tf_softplus/yolov4',
-flags.DEFINE_string('weights', './checkpoints/yolov4',
+# flags.DEFINE_string('weights', './data/yolov3-tiny.weights',
+flags.DEFINE_string('weights', './data/udlnew_tiny.tflite',
+                    # flags.DEFINE_string('weights', './checkpoints/yolov4',
                     'path to weights file')
 flags.DEFINE_integer('size', 608, 'resize images to')
-flags.DEFINE_boolean('tiny', False, 'yolo or yolo-tiny')
-flags.DEFINE_string('model', 'yolov4', 'yolov3 or yolov4')
+flags.DEFINE_boolean('tiny', True, 'yolo or yolo-tiny')
+flags.DEFINE_string('model', 'yolov3', 'yolov3 or yolov4')
 flags.DEFINE_string('video', './data/road.avi', 'path to input video')
+
 
 def main(_argv):
     if FLAGS.tiny:
@@ -33,7 +35,7 @@ def main(_argv):
     input_size = FLAGS.size
     video_path = FLAGS.video
 
-    print("Video from: ", video_path )
+    print("Video from: ", video_path)
     vid = cv2.VideoCapture(0)
 
     if FLAGS.framework == 'tf':
@@ -62,7 +64,7 @@ def main(_argv):
                     bbox_tensor = decode(fm, NUM_CLASS, i)
                     bbox_tensors.append(bbox_tensor)
                 model = tf.keras.Model(input_layer, bbox_tensors)
-                
+
                 if FLAGS.weights.split(".")[len(FLAGS.weights.split(".")) - 1] == "weights":
                     utils.load_weights(model, FLAGS.weights)
                 else:
@@ -79,6 +81,7 @@ def main(_argv):
         print(input_details)
         print(output_details)
 
+    count = -1
     while True:
         return_value, frame = vid.read()
         if return_value:
@@ -91,31 +94,43 @@ def main(_argv):
         image_data = image_data[np.newaxis, ...].astype(np.float32)
         prev_time = time.time()
 
-        if FLAGS.framework == 'tf':
-            pred_bbox = model.predict(image_data)
-        else:
-            interpreter.set_tensor(input_details[0]['index'], image_data)
-            interpreter.invoke()
-            pred_bbox = [interpreter.get_tensor(output_details[i]['index']) for i in range(len(output_details))]
+        if count == 10 or count == -1:
+            if FLAGS.framework == 'tf':
+                pred_bbox = model.predict(image_data)
+            else:
+                interpreter.set_tensor(input_details[0]['index'], image_data)
+                interpreter.invoke()
+                pred_bbox = [interpreter.get_tensor(output_details[i]['index']) for i in range(len(output_details))]
 
-        if FLAGS.model == 'yolov4':
-            pred_bbox = utils.postprocess_bbbox(pred_bbox, ANCHORS, STRIDES, XYSCALE)
+            if FLAGS.model == 'yolov4':
+                pred_bbox = utils.postprocess_bbbox(pred_bbox, ANCHORS, STRIDES, XYSCALE)
+            else:
+                pred_bbox = utils.postprocess_bbbox(pred_bbox, ANCHORS, STRIDES)
+
+            # bboxes = utils.postprocess_boxes(pred_bbox, frame_size, input_size, 0.25)
+            # bboxes = utils.nms(bboxes, 0.213, method='nms')
+            #
+            # image = utils.draw_bbox(frame, bboxes)
+            count = 0
+
         else:
-            pred_bbox = utils.postprocess_bbbox(pred_bbox, ANCHORS, STRIDES)
+            count = count + 1
 
         bboxes = utils.postprocess_boxes(pred_bbox, frame_size, input_size, 0.25)
         bboxes = utils.nms(bboxes, 0.213, method='nms')
 
         image = utils.draw_bbox(frame, bboxes)
+
         curr_time = time.time()
         exec_time = curr_time - prev_time
         result = np.asarray(image)
-        info = "time: %.2f ms" %(1000*exec_time)
+        info = "time: %.2f ms" % (1000 * exec_time)
         print(info)
         cv2.namedWindow("result", cv2.WINDOW_AUTOSIZE)
         result = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
         cv2.imshow("result", result)
         if cv2.waitKey(1) & 0xFF == ord('q'): break
+
 
 if __name__ == '__main__':
     try:

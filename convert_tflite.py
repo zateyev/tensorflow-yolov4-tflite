@@ -17,7 +17,8 @@ flags.DEFINE_integer('input_size', 416, 'path to output')
 flags.DEFINE_string('model', 'yolov4', 'yolov3 or yolov4')
 flags.DEFINE_string('quantize_mode', "int8", 'quantize mode (int8, float16, full_int8)')
 flags.DEFINE_string('dataset', "/media/user/Source/Data/coco_dataset/coco/5k.txt", 'path to dataset')
-
+# python convert_tflite.py --weights ./checkpoints/yolov4 --output ./data/udl_tiny.tflite
+# python convert_tflite.py --weights ./checkpoints/yolov4 --output ./data/udl_tiny.tflite --model yolov3 --tiny tiny=True
 def representative_data_gen():
   fimage = open(FLAGS.dataset).read().split()
   for input_value in range(100):
@@ -41,7 +42,8 @@ def save_tflite():
       bbox_tensor = decode(fm, NUM_CLASS, i)
       bbox_tensors.append(bbox_tensor)
     model = tf.keras.Model(input_layer, bbox_tensors)
-    utils.load_weights_tiny(model, FLAGS.weights)
+    # utils.load_weights_tiny(model, FLAGS.weights)
+    model.load_weights(FLAGS.weights).expect_partial()
   else:
     if FLAGS.model == 'yolov3':
       feature_maps = YOLOv3(input_layer, NUM_CLASS)
@@ -50,7 +52,8 @@ def save_tflite():
         bbox_tensor = decode(fm, NUM_CLASS, i)
         bbox_tensors.append(bbox_tensor)
       model = tf.keras.Model(input_layer, bbox_tensors)
-      utils.load_weights_v3(model, FLAGS.weights)
+      # utils.load_weights_v3(model, FLAGS.weights)
+      model.load_weights(FLAGS.weights).expect_partial()
     elif FLAGS.model == 'yolov4':
       feature_maps = YOLOv4(input_layer, NUM_CLASS)
       bbox_tensors = []
