@@ -239,7 +239,7 @@ public class YoloV4Classifier implements Classifier {
         return nmsList;
     }
 
-    protected float mNmsThresh = 0.6f;
+    protected float mNmsThresh = 0.1f;
 
     protected float box_iou(RectF a, RectF b) {
         return box_intersection(a, b) / box_union(a, b);
@@ -378,10 +378,10 @@ public class YoloV4Classifier implements Classifier {
 
                             final RectF rect =
                                     new RectF(
-                                            Math.max(0, xPos - w / 2),
-                                            Math.max(0, yPos - h / 2),
-                                            Math.min(bitmap.getWidth() - 1, xPos + w / 2),
-                                            Math.min(bitmap.getHeight() - 1, yPos + h / 2));
+                                            Math.max(0, xPos - w / 2)-40,
+                                            Math.max(0, yPos - h / 2)-10,
+                                            Math.min(bitmap.getWidth() - 1, xPos + w / 2)+40,
+                                            Math.min(bitmap.getHeight() - 1, yPos + h / 2)+13);
                             detections.add(new Recognition("" + offset, labels.get(detectedClass),
                                     confidenceInClass, rect, detectedClass));
                         }
