@@ -11,12 +11,12 @@ import tensorflow as tf
 
 flags.DEFINE_string('framework', 'tflite', '(tf, tflite')
 # flags.DEFINE_string('weights', './data/yolov3-tiny.weights',
-flags.DEFINE_string('weights', './data/udlnew.tflite',
-# flags.DEFINE_string('weights', './checkpoints/yolov4',
+flags.DEFINE_string('weights', './data/four_tiny.tflite',
+                    # flags.DEFINE_string('weights', './checkpoints/yolov4',
                     'path to weights file')
 flags.DEFINE_integer('size', 416, 'resize images to')
-flags.DEFINE_boolean('tiny', False, 'yolo or yolo-tiny')
-flags.DEFINE_string('model', 'yolov4', 'yolov3 or yolov4')
+flags.DEFINE_boolean('tiny', True, 'yolo or yolo-tiny')
+flags.DEFINE_string('model', 'yolov3', 'yolov3 or yolov4')
 flags.DEFINE_string('video', './data/road.avi', 'path to input video')
 
 
