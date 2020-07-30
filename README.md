@@ -175,3 +175,5 @@ python convert_tflite.py --weights ./data/yolov3-tiny.weights --output ./data/ud
 python detect.py --weights ./data/udl.tflite --framework tflite --size 416 --image ./data/udl29.jpg
 
 python detect.py --weights ./data/yolov4.tflite --framework tflite --size 416 --image ./data/kite.jpg
+
+--weights ./data/yolov3.weights --framework tf --size 416 --image ./data/kite.jpg

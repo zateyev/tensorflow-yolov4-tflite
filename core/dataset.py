@@ -164,10 +164,10 @@ class Dataset(object):
         image = cv2.imread(image_path)
         bboxes = np.array([list(map(int, box.split(','))) for box in line[1:]])
 
-        if self.data_aug:
-            image, bboxes = self.random_horizontal_flip(np.copy(image), np.copy(bboxes))
-            image, bboxes = self.random_crop(np.copy(image), np.copy(bboxes))
-            image, bboxes = self.random_translate(np.copy(image), np.copy(bboxes))
+        # if self.data_aug:
+        #     image, bboxes = self.random_horizontal_flip(np.copy(image), np.copy(bboxes))
+        #     image, bboxes = self.random_crop(np.copy(image), np.copy(bboxes))
+        #     image, bboxes = self.random_translate(np.copy(image), np.copy(bboxes))
 
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         image, bboxes = utils.image_preprocess(np.copy(image), [self.train_input_size, self.train_input_size], np.copy(bboxes))
@@ -220,6 +220,7 @@ class Dataset(object):
             for i in range(3):
                 anchors_xywh = np.zeros((self.anchor_per_scale, 4))
                 anchors_xywh[:, 0:2] = np.floor(bbox_xywh_scaled[i, 0:2]).astype(np.int32) + 0.5
+                # anchors_xywh[:, 0:2] = self.anchors[i]
                 anchors_xywh[:, 2:4] = self.anchors[i]
 
                 iou_scale = self.bbox_iou(bbox_xywh_scaled[i][np.newaxis, :], anchors_xywh)
