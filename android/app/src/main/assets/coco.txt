@@ -1,8 +1,8 @@
-udl
-bicycle
-car
-motorbike
-aeroplane
+closed
+happy
+left
+right
+neutral
 bus
 train
 truck
