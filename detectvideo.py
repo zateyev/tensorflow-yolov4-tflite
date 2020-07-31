@@ -11,7 +11,7 @@ import tensorflow as tf
 
 flags.DEFINE_string('framework', 'tflite', '(tf, tflite')
 # flags.DEFINE_string('weights', './data/yolov3-tiny.weights',
-flags.DEFINE_string('weights', './data/liveness.tflite',
+flags.DEFINE_string('weights', './data/liveness3.tflite',
                     # flags.DEFINE_string('weights', './checkpoints/yolov4',
                     'path to weights file')
 flags.DEFINE_integer('size', 416, 'resize images to')
@@ -116,7 +116,7 @@ def main(_argv):
         else:
             count = count + 1
 
-        bboxes = utils.postprocess_boxes(pred_bbox, frame_size, input_size, 0.25)
+        bboxes = utils.postprocess_boxes(pred_bbox, frame_size, input_size, 0.61)
         bboxes = utils.nms(bboxes, 0.213, method='nms')
 
         image = utils.draw_bbox(frame, bboxes)

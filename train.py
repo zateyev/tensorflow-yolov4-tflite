@@ -51,6 +51,7 @@ def main(_argv):
             bbox_tensors.append(fm)
             bbox_tensors.append(bbox_tensor)
         model = tf.keras.Model(input_layer, bbox_tensors)
+        model.summary()
     else:
         if FLAGS.model == 'yolov3':
             feature_maps = YOLOv3(input_layer, NUM_CLASS)
@@ -60,6 +61,7 @@ def main(_argv):
                 bbox_tensors.append(fm)
                 bbox_tensors.append(bbox_tensor)
             model = tf.keras.Model(input_layer, bbox_tensors)
+            model.summary()
         elif FLAGS.model == 'yolov4':
             feature_maps = YOLOv4(input_layer, NUM_CLASS)
             bbox_tensors = []
@@ -68,6 +70,7 @@ def main(_argv):
                 bbox_tensors.append(fm)
                 bbox_tensors.append(bbox_tensor)
             model = tf.keras.Model(input_layer, bbox_tensors)
+            model.summary()
 
     if FLAGS.weights == None:
         print("Training from scratch")
