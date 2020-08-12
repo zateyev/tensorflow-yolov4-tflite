@@ -1367,3 +1367,449 @@
 /home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/neutral/augmentedFiles/oleg_straight_neutral_open_7.jpg 1300,491,1716,985,4
 /home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/neutral/augmentedFiles/oleg_straight_neutral_open_8.jpg 842,165,1173,557,4
 /home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/neutral/augmentedFiles/oleg_straight_neutral_open_9.jpg 14,155,467,692,4
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/8_0.jpg 217,101,1496,731,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/8_1.jpg 106,575,767,900,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/8_2.jpg 26,1115,924,1557,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/8_3.jpg 133,502,1412,1132,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/8_4.jpg 1736,675,2773,1186,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/8_5.jpg 33,155,1312,785,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/8_6.jpg 509,185,1370,610,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/8_7.jpg 193,539,1163,1017,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/8_8.jpg 319,217,1598,847,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/8_9.jpg 309,598,1588,1228,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/10_0.jpg 205,234,1484,891,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/10_1.jpg 19,68,1298,725,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/10_2.jpg 267,178,1456,789,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/10_3.jpg 88,382,1754,1238,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/10_4.jpg 86,497,1426,1186,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/10_5.jpg 59,663,1338,1320,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/10_6.jpg 144,32,1684,823,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/10_7.jpg 1361,617,2139,1017,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/10_8.jpg 64,555,1405,1244,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/10_9.jpg 201,473,1480,1130,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/7_0.jpg 551,464,1208,1770,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/7_1.jpg 709,11,1116,820,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/7_2.jpg 15,253,658,1532,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/7_3.jpg 422,510,1065,1789,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/7_4.jpg 196,383,786,1555,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/7_5.jpg 650,229,1293,1508,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/7_6.jpg 566,89,1209,1368,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/7_7.jpg 72,169,610,1238,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/7_8.jpg 83,146,674,1322,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/7_9.jpg 228,301,679,1198,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/11_0.jpg 107,220,1386,834,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/11_1.jpg 8,66,1546,805,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/11_2.jpg 235,453,1715,1164,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/11_3.jpg 29,6,1612,767,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/11_4.jpg 297,160,1239,613,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/11_5.jpg 373,213,1345,680,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/11_6.jpg 58,1508,732,1832,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/11_7.jpg 493,317,1567,833,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/11_8.jpg 61,130,1340,744,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/11_9.jpg 1049,982,1789,1337,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/12_0.jpg 233,262,1106,702,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/12_1.jpg 797,210,1499,564,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/12_2.jpg 155,650,1113,1134,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/12_3.jpg 499,205,1478,699,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/12_4.jpg 28,279,1307,924,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/12_5.jpg 76,192,1308,813,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/12_6.jpg 425,616,1128,971,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/12_7.jpg 241,14,1520,659,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/12_8.jpg 292,497,1571,1142,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/12_9.jpg 120,95,1217,649,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/6_0.jpg 116,7,1395,658,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/6_1.jpg 39,205,1318,856,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/6_2.jpg 241,436,1596,1126,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/6_3.jpg 1525,1114,2804,1765,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/6_4.jpg 527,87,1547,607,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/6_5.jpg 210,119,1469,760,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/6_6.jpg 110,61,1572,805,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/6_7.jpg 290,390,1569,1041,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/6_8.jpg 67,331,1389,1004,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/6_9.jpg 104,353,1383,1004,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/5_0.jpg 564,79,1189,1358,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/5_1.jpg 261,131,859,1354,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/5_2.jpg 278,31,903,1310,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/5_3.jpg 95,5,720,1284,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/5_4.jpg 658,493,974,1140,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/5_5.jpg 606,39,1231,1318,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/5_6.jpg 698,125,1282,1320,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/5_7.jpg 501,147,1126,1426,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/5_8.jpg 547,17,1172,1296,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/5_9.jpg 815,103,1379,1256,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/9_0.jpg 1302,99,1924,1378,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/9_1.jpg 283,319,905,1598,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/9_2.jpg 1024,61,1677,1402,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/9_3.jpg 114,211,524,1054,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/9_4.jpg 124,196,746,1475,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/9_5.jpg 218,161,840,1440,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/9_6.jpg 704,414,1277,1591,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/9_7.jpg 57,119,679,1398,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/9_8.jpg 379,90,1001,1369,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/9_9.jpg 834,21,1456,1300,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/3_0.jpg 148,37,1427,674,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/3_1.jpg 49,291,1328,928,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/3_2.jpg 78,90,1357,727,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/3_3.jpg 214,232,1319,783,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/3_4.jpg 198,821,1161,1301,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/3_5.jpg 253,222,1235,711,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/3_6.jpg 77,360,1356,997,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/3_7.jpg 115,127,1107,622,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/3_8.jpg 229,649,1508,1286,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/3_9.jpg 95,105,1374,742,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/2_0.jpg 238,178,1517,895,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/2_1.jpg 156,344,1263,965,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/2_2.jpg 107,586,1510,1373,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/2_3.jpg 24,152,1076,742,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/2_4.jpg 469,54,1748,771,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/2_5.jpg 1038,128,2317,845,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/2_6.jpg 253,492,1532,1209,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/2_7.jpg 392,132,1086,521,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/2_8.jpg 313,564,1076,991,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/2_9.jpg 423,753,1470,1340,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/4_0.jpg 392,117,1060,1396,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/4_1.jpg 125,161,793,1440,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/4_2.jpg 246,320,767,1317,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/4_3.jpg 380,7,1048,1286,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/4_4.jpg 358,130,952,1266,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/4_5.jpg 1293,205,1961,1484,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/4_6.jpg 97,394,702,1551,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/4_7.jpg 699,82,1367,1361,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/4_8.jpg 67,18,735,1297,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/4_9.jpg 470,192,983,1173,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/1_0.jpg 471,920,886,1595,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/1_1.jpg 261,439,692,1140,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/1_2.jpg 23,30,809,1309,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/1_3.jpg 198,195,984,1474,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/1_4.jpg 231,193,1017,1472,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/1_5.jpg 259,19,1045,1298,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/1_6.jpg 69,31,855,1310,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/1_7.jpg 795,444,1765,2022,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/1_8.jpg 300,312,1086,1591,5
+/home/zhateyev/PycharmProjects/Data-Augmentation-for-Object-Detection-YOLO-/data/my/liveness/phone/augmentedFiles/1_9.jpg 497,321,1128,1347,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/c266d8aa69c41dfd.jpg 44,181,205,413,5 239,242,501,391,5 529,226,779,367,5 799,173,947,378,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/019e34019dc342f6.jpg 334,113,607,659,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/d2402535b330a17f.jpg 519,392,1016,1016,5 0,562,547,1022,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/046d67caf75be1d5.jpg 146,32,770,1022,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/58849d1a80867957.jpg 548,12,884,576,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/8fd6e00f3fb59829.jpg 169,59,957,758,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/d83b51d801ef05ae.jpg 97,116,599,714,5 344,517,713,890,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/560ead164dab63a5.jpg 172,0,809,680,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/7d6e6db470bd41fc.jpg 785,195,1013,469,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/4a1f075fdf3e6f70.jpg 111,17,692,989,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/772b0aeda9c8d247.jpg 628,186,896,677,5 72,111,630,754,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/4fcd689ced9938e6.jpg 532,260,680,550,5 135,438,172,447,5 237,365,244,372,5 261,363,279,386,5 515,376,529,383,5 689,379,700,381,5 795,381,804,386,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/49de2c1047faa37a.jpg 533,284,671,380,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/40380a69ea0d184c.jpg 408,154,765,649,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/19403300479c0138.jpg 515,469,668,706,5 0,390,159,671,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/364c2b79bd9863b7.jpg 352,26,719,661,5 391,169,747,624,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/023b8de05c2b1321.jpg 593,126,746,434,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/261449fe30252ad2.jpg 0,4,890,700,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/da8f5c2cdbcd51e3.jpg 174,0,832,1024,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/9213fdb735ddee19.jpg 350,13,666,612,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/5641c81a11d08f0d.jpg 751,332,904,464,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/9966b633136e23b1.jpg 914,659,1022,762,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/91f4eca2f778bb47.jpg 26,283,954,722,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/8fb1ed4080a2f06c.jpg 374,62,673,621,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/93486e848c93019e.jpg 1,5,1020,527,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/10eb1a05f307c919.jpg 284,27,796,672,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0080f819eacba1fe.jpg 185,332,488,776,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/04c90cc20d8e5a2b.jpg 110,0,977,1022,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0c829eea2bc71860.jpg 271,67,707,679,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/b1342f9ef89f918f.jpg 134,12,1009,764,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/06d71be7d9201d14.jpg 275,93,641,623,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/73a1fd52a4477a5a.jpg 344,196,961,668,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/a9b388d3fbe40284.jpg 10,0,646,1004,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/032e9c3bfaab8e49.jpg 329,27,781,618,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/5205a9d81a67fa59.jpg 156,246,351,641,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/7f7bbd16231290cc.jpg 164,122,821,614,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/016c2f3a0abdc584.jpg 98,370,305,723,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/a87a0b2bdd30e866.jpg 106,22,635,874,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0d85175a8977a735.jpg 458,238,644,431,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/addf3475a65acb03.jpg 121,83,960,588,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/412b31ce905437ea.jpg 160,12,637,941,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/add2d8e6fafb6dd5.jpg 216,56,655,609,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/dbd7638b3e22f57c.jpg 134,91,896,560,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/a8907dfe5129d96c.jpg 192,42,701,703,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/29e884f4d846547e.jpg 460,424,685,535,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/ce968fdca9f749c9.jpg 287,48,743,575,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/805cf27a532e81d7.jpg 0,0,1019,768,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/9593515c78e6d95e.jpg 13,3,444,568,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/56417c40099fac66.jpg 103,76,928,588,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/90e4f523ffa99f40.jpg 278,0,717,629,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/5266b4f8000ed53c.jpg 502,326,674,525,5 340,346,500,509,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/7de59661fc3136a1.jpg 0,133,589,1006,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/f7cb90d08909374a.jpg 35,32,537,1006,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/ca2d89052ebf6245.jpg 0,103,987,676,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/2687b53a86d22f9d.jpg 158,56,964,674,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/667212abb883a773.jpg 123,130,584,947,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/fd37ca4a2999fe18.jpg 3,3,524,1016,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/1df7d9e45523ffbc.jpg 52,65,582,982,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/8a73972565a0ea2a.jpg 267,293,477,909,5 488,200,734,912,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0ed4577b43171f1c.jpg 126,134,962,570,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/206a07264968ddd7.jpg 155,201,752,654,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/e29f5e8e73e01fc9.jpg 371,106,892,422,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/97d814b5fcf487af.jpg 0,0,1023,683,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/6ace879b56f2e0fa.jpg 186,132,823,541,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/6a360e186f14f128.jpg 487,144,998,539,5 77,150,561,509,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/9e95988949d234ef.jpg 310,10,684,668,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/a7b8439a9d499461.jpg 0,10,1024,1022,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/fb928c4c83166acc.jpg 182,217,337,779,5 343,205,615,783,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/7ab2ef4ae20037da.jpg 104,51,693,1014,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/4a30f6fd49af2c2c.jpg 0,31,1023,701,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/e3d043ca2dd14498.jpg 280,83,688,683,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/824f018e536b107b.jpg 45,22,604,953,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/7508d86a5f946db3.jpg 6,587,348,716,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/78fbf16922b71813.jpg 63,26,639,957,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/297f15687a27cc0b.jpg 37,255,644,833,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0207a07160a6c236.jpg 260,95,871,546,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/221c7784655cd34c.jpg 594,250,776,589,5 138,344,282,622,5 245,339,372,618,5 337,301,483,589,5 438,282,618,586,5 757,232,915,566,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/aef33457cb60d2fa.jpg 192,15,868,670,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0962e6b5ec93c97b.jpg 314,46,703,614,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/74f63c2e4fb3e7bf.jpg 120,93,1023,736,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/c829436ef9c6f80e.jpg 312,0,781,680,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0da96c8ee1c04252.jpg 116,14,413,723,5 553,14,922,723,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/a8860c1854aed101.jpg 272,18,740,941,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/c4b67e22421f69c8.jpg 42,589,490,939,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/6191a3fc1d1b4de6.jpg 94,69,997,578,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/45f35fd2691c2387.jpg 133,5,1023,587,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/5ce0e1aee50f1780.jpg 95,313,800,1004,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/5a50a74618c23b7d.jpg 115,90,376,514,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/01ef85849cd2bff9.jpg 128,400,324,748,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/f1acd986403ab1b4.jpg 309,35,465,293,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/60fe5be1826dc852.jpg 124,347,364,797,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/4975d306630cf01d.jpg 128,45,914,641,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0a1a9a99f177e69a.jpg 276,31,712,618,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/18d47ad515a219fd.jpg 502,198,899,605,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/801d749bfbe78906.jpg 74,171,474,675,5 408,52,901,498,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/f1417458bdb9bce9.jpg 620,413,783,659,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/92f351723eab18b2.jpg 488,50,931,942,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/d3b8dec37e896b78.jpg 239,125,644,381,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/af61e298282b59c2.jpg 193,61,844,621,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/8f70e110e980eb7d.jpg 16,115,696,990,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/75283952f7950703.jpg 114,0,908,659,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0a204e50362fdf1d.jpg 0,12,753,684,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/554e4e24b4e43eaa.jpg 440,142,840,803,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/d7eda4e7dd537025.jpg 28,67,431,774,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/feee1172ff7c83aa.jpg 307,44,1023,523,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/2dd5283213b74abe.jpg 6,197,933,876,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0b3639c3e4bbe91f.jpg 348,250,995,727,5 21,15,355,721,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/219377f00ff7fa63.jpg 145,158,874,674,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/3d5bf34fca8cf87d.jpg 816,671,1024,765,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/090ff6f59d135767.jpg 0,0,400,1019,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/96ee5f37aa78ec2d.jpg 125,99,481,657,5 561,147,908,664,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/306304808e3fc575.jpg 363,35,684,270,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/20ea86af335ed3c7.jpg 56,244,372,874,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/98f62b3501f3379a.jpg 190,10,501,631,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/936625fe9dd88a4a.jpg 119,31,507,627,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/d6efecbf3950cb69.jpg 5,0,430,835,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/a5242b7efd3685fe.jpg 306,2,739,684,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/e731b9ba9d017148.jpg 540,265,734,622,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/00853aa7e26dc77f.jpg 0,0,481,767,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/10f0d1477772b925.jpg 30,41,847,683,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/d101c52a2da7722b.jpg 14,32,354,654,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/9ef4b8063f27d820.jpg 239,323,315,765,5 450,321,517,798,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/e76f025ca0acdc75.jpg 165,186,504,827,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/c62cc1ccad2513e1.jpg 230,332,553,920,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/e3b6bcfc0d0e231f.jpg 39,84,1023,596,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/f1ba003dc9238291.jpg 56,36,654,984,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/50a8070fbb6e8adc.jpg 88,53,698,477,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/7ea6b8442521fe07.jpg 246,17,752,1012,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/dc804ede620d4661.jpg 132,47,349,395,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/3fbaf31f0b560008.jpg 111,513,326,636,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/625ecb3e7625924d.jpg 0,35,764,1024,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/98b6273a6537d282.jpg 115,85,1023,639,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/a678f7a3cb4cb3d0.jpg 284,191,651,662,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/1f3835b12c5dfaec.jpg 563,266,683,423,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/18b509eb872ee3e6.jpg 234,182,656,910,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/54530a4ad9a09fd6.jpg 87,407,458,1000,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/1db9a24f85beec61.jpg 402,356,768,960,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/32f76362db2d743d.jpg 13,0,549,1023,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/6f6a1daec3720ad7.jpg 485,146,893,917,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/3704b9c7e9629d46.jpg 38,0,655,1024,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/f4793ff4e283ba81.jpg 0,34,1003,739,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/30f5c5396e1f7cbe.jpg 202,279,357,563,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/91a15efb86210577.jpg 28,35,988,499,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/074586bbf0839d11.jpg 630,289,806,543,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/699272cd280b757b.jpg 276,44,743,974,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/a6069347aa4c56af.jpg 342,65,678,676,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/94924cc2b463dad5.jpg 478,99,1022,517,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/015a7f67c822611d.jpg 0,0,823,621,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/d641156d7a83b12b.jpg 59,86,250,324,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/ca2101c7c2b0c738.jpg 467,223,646,476,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/964ae210bc900b11.jpg 580,295,943,708,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/d163612c4e7771d0.jpg 298,92,948,528,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/6017ef77115d7575.jpg 32,162,464,576,5 315,139,712,456,5 549,146,848,371,5 680,131,986,331,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/276f712a246f9742.jpg 0,87,727,947,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/4809a73953b1f642.jpg 269,7,730,647,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0e81abba605e6d91.jpg 259,0,906,767,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0c99d2622e821827.jpg 114,26,445,682,5 575,60,909,681,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/481e9aa49ad55c41.jpg 237,123,552,524,5 403,37,753,450,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/442e6fb5e56935fe.jpg 8,10,609,1022,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/faa46cfb8cced5a3.jpg 267,31,932,586,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/c73ec626ef7db762.jpg 359,228,563,362,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/043c9868ec03c044.jpg 0,0,767,1014,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/5c6b8cc0ea6da87b.jpg 142,23,908,757,5 600,61,929,532,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/ead67862eb77fe7f.jpg 449,8,577,586,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/54b0b0b66138be6d.jpg 467,119,999,467,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/7d14ba0f49f84776.jpg 121,144,712,472,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/61575cb611abba99.jpg 227,249,580,816,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/367aa132b0b1d1a5.jpg 113,87,706,607,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/96602a72b4b83523.jpg 169,2,796,880,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0367df96c754f3e9.jpg 77,94,968,607,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/38e2ea60755ec101.jpg 10,136,584,967,5 448,94,1002,842,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/4c40a90d384d9f6a.jpg 112,196,437,876,5 413,198,647,867,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/e34156ee840a4214.jpg 350,127,653,554,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/31f9a144f86276fb.jpg 350,468,715,1006,5 34,11,366,225,5 168,518,239,548,5 580,447,601,452,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/01fbb47ed3360107.jpg 10,86,1023,666,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/54c521d41f7818ef.jpg 309,48,898,680,5 0,0,494,681,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/3da5e477f82215c6.jpg 263,70,553,628,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/e843250a92267045.jpg 0,253,202,295,5 0,138,214,252,5 277,29,692,666,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/06132aee8e2b83d5.jpg 294,22,659,622,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0d68bf6bbdb58d2b.jpg 38,72,242,298,5 630,82,818,395,5 813,94,1003,390,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/df3fb311a75524e5.jpg 767,273,868,463,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/d88e36c811f9b294.jpg 156,0,828,672,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/363d90e32f707089.jpg 154,227,338,555,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/d9a838befa745c08.jpg 0,8,768,1024,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/51662f802ef90ed2.jpg 129,32,599,677,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/955366f74c19ee7f.jpg 219,778,458,1001,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/b0515e708cf42046.jpg 216,418,483,953,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/b0f93bb52323651b.jpg 0,0,691,1022,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/7b74590a3250aea8.jpg 423,218,714,492,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/9a53f70d67f8f617.jpg 83,132,523,972,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0329124b2dc7ec02.jpg 18,221,387,641,5 57,35,162,158,5 346,250,549,358,5 475,10,635,88,5 836,461,1008,674,5 838,313,1022,432,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/ea40598e1128af27.jpg 545,258,792,540,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/73647d404741eb7b.jpg 0,0,574,1023,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/7c93f01f07d67cbb.jpg 338,406,1022,678,5 678,322,1022,494,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0419316d6607cfda.jpg 196,505,276,631,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/c0680755f30004b5.jpg 197,228,540,440,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/d95e0c644cd5bde2.jpg 917,302,1012,437,5 0,314,72,407,5 49,356,164,437,5 51,229,141,300,5 254,310,342,410,5 296,226,366,300,5 620,230,680,306,5 620,335,703,436,5 870,234,954,319,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/86f1bc40004d8f09.jpg 450,464,669,813,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/007191c09b7f8548.jpg 259,26,454,421,5 591,15,804,423,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/491f33ccdd3d3606.jpg 0,67,550,1024,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0910fd97c3ea67af.jpg 273,170,608,360,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/1436039a6b768341.jpg 0,0,718,1009,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/d4fc98fda49231f6.jpg 387,0,928,700,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/51f190a68e7792d7.jpg 310,424,363,442,5 312,437,378,463,5 344,454,416,492,5 359,248,411,291,5 381,274,442,290,5 391,543,478,585,5 403,371,465,395,5 429,569,519,618,5 432,252,454,273,5 437,399,507,421,5 456,620,566,673,5 466,256,490,285,5 487,426,559,461,5 500,669,621,741,5 508,454,595,486,5 556,508,646,556,5 609,741,694,767,5 617,545,707,604,5 657,633,757,696,5 733,688,843,758,5 755,498,815,525,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/cc938224ea5e152d.jpg 512,379,738,766,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0dd9c9b0abacfc35.jpg 218,25,881,676,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/c2f100e74cf12581.jpg 82,176,478,872,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/bb8c6d3b6554a095.jpg 341,8,677,641,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/17bc2f78adbaab7d.jpg 0,66,1020,768,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/9cf92d32b8ed6c65.jpg 52,260,271,666,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/6563299f516925e8.jpg 740,252,917,599,5 55,170,222,468,5 214,353,385,662,5 223,54,395,353,5 387,382,561,693,5 387,65,566,374,5 567,71,735,378,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/f08a751b24da0900.jpg 435,206,587,503,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0869ca4583dac248.jpg 221,772,273,891,5 246,828,342,896,5 566,794,603,865,5 593,790,634,864,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/6ce294bb367476f6.jpg 0,58,943,661,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/1269a44fd3c01102.jpg 109,46,451,664,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/1ffe9fed20474909.jpg 53,36,625,1024,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/ff2833f8171c98d8.jpg 88,116,890,590,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/6b394bbeabb31f55.jpg 194,0,709,672,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/02daba189ea5d138.jpg 131,99,871,580,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/c9b5bfdfb61feff9.jpg 205,211,946,554,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/7137a89d6c5593d0.jpg 344,5,747,680,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/b7a3a3c9f44f2ee6.jpg 865,279,996,490,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0673350f0d05efd6.jpg 73,603,506,969,5 346,362,708,793,5 442,20,982,505,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/698277fad8e8126e.jpg 678,0,993,467,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/b41154052edef630.jpg 728,69,981,399,5 317,94,618,484,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/01df7560c473e1ac.jpg 0,0,952,679,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/00b4c6fb8ebb3f42.jpg 259,62,885,609,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/d0624490d9e7d08a.jpg 592,43,1004,440,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/9139cfea53df0c7c.jpg 179,78,974,669,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/2133fc3de79e31ce.jpg 335,101,543,483,5 524,26,739,372,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/258d1e790942cdd4.jpg 3,247,686,520,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/06878a2cc02bb2ff.jpg 188,246,399,610,5 484,258,543,602,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/05c6063b034342f0.jpg 435,272,595,601,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/06011d0b6390dc5a.jpg 0,157,603,846,5 448,37,1022,594,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/09900d5eca4beede.jpg 317,113,643,677,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/d93cb38d0cb31c16.jpg 536,175,721,443,5 240,310,529,487,5 701,177,916,463,5 794,161,918,387,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/8e34419e726f30e4.jpg 445,21,828,676,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/e5ccb67019d6e65a.jpg 80,0,1023,767,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/e6c7f0b34a606c95.jpg 282,314,414,509,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/cdbe0c4077ab17ee.jpg 463,22,604,598,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/c4cd2ddbf1a2ef6e.jpg 0,0,1022,766,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/b12bcd5d6cb9b655.jpg 222,6,812,1012,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/1287d1352374e2ad.jpg 156,0,808,761,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/f5d92f1c9956c448.jpg 270,339,454,681,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/82ea774f393ebc59.jpg 347,48,670,631,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/4f9691c096eccd91.jpg 98,305,242,572,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/b9dde7eff4101c2b.jpg 90,31,998,735,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/b5d2a81c765f7c76.jpg 362,243,637,442,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/512a07adc8001d19.jpg 589,380,944,853,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/58d0f038da6e026e.jpg 135,67,426,462,5 465,120,707,447,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/794f56273e2e8f1e.jpg 303,701,721,986,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/9fd723fe3ef9c7ef.jpg 63,0,669,674,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/81248fc80f66cf10.jpg 310,228,788,466,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/1f01a170f36c35b7.jpg 323,132,852,459,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/3859528523982ef7.jpg 194,174,491,340,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/eece50cfc1a71845.jpg 53,67,979,605,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/883e0ccd98e2d2b2.jpg 285,620,403,792,5 232,730,336,811,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/d594bb2f891fa7ea.jpg 389,69,736,954,5 30,24,444,982,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/a0d5c1fc760de495.jpg 82,92,420,670,5 545,204,976,485,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/003b80fc0494a9f4.jpg 70,82,520,626,5 363,42,781,528,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/9924cba15103878b.jpg 516,482,623,672,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/d5e3c7c80de54ef0.jpg 252,0,834,680,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/04a605c2aa93addc.jpg 116,0,943,640,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/3884852bbb2d231f.jpg 312,93,504,197,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/6831928ff89a6b44.jpg 90,196,810,615,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/8d57df6b23809689.jpg 5,123,755,437,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/6feb5936a4c279c8.jpg 135,283,548,785,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/fc76fa53a64e8ac9.jpg 184,95,890,682,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/54b698da0d240fa7.jpg 47,111,849,646,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/042f5fb9fad0d98f.jpg 57,72,579,981,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/838c5672e7a5e4ed.jpg 259,40,548,506,5 540,47,771,510,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/01ed9f00b2d3265e.jpg 350,415,1015,901,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/5be1cd119ca8139c.jpg 349,100,694,580,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/4c092e31d2199f9a.jpg 138,120,1021,656,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/ba5ed671c9b0d0aa.jpg 28,104,1021,684,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/2469b77fbdedbda5.jpg 208,98,514,416,5 592,176,893,610,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/4428961b6ff577c9.jpg 170,227,511,659,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/07439a3fbee05c5d.jpg 132,196,469,802,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0d3be867f9ca3653.jpg 341,32,725,631,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/af20260350dd293a.jpg 534,103,666,298,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/d4c2aff7229f6e84.jpg 580,346,880,392,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/022d6e91b1f7f16e.jpg 459,403,613,630,5 317,418,386,627,5 363,576,410,605,5 379,419,461,635,5 582,410,658,635,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/8a6bd9f5b4038115.jpg 335,60,802,593,5 0,0,194,215,5 455,0,712,21,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/cabe88ff2bb47045.jpg 109,6,539,758,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/8e1bf66956817a61.jpg 221,324,312,523,5 343,187,535,623,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/8d8351714618ccf1.jpg 0,17,663,767,5 454,0,1023,767,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/b9fa72bfc6af4784.jpg 43,20,612,768,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/9a39d9932a861e32.jpg 120,186,915,658,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/864a786d5bb4a7f2.jpg 94,56,569,620,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/9557f0bafa8958a0.jpg 696,228,934,467,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/019f13725d8ce428.jpg 257,44,697,658,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/9fa660e738dd5ede.jpg 130,124,230,567,5 225,119,461,560,5 430,81,643,491,5 479,278,937,556,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/fef169aa366115a1.jpg 190,142,557,810,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/3e679213ca390b57.jpg 33,212,979,835,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/168cdee9673496f0.jpg 284,28,660,369,5 364,293,696,680,5 671,185,1009,414,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/ad75f8ee91df67fb.jpg 547,29,819,575,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/d99d510e3229663c.jpg 655,392,849,742,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0b945097dd12a3b4.jpg 209,240,783,515,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/f13f10a79762cc5e.jpg 373,122,893,472,5 0,149,144,279,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/8d0dc9e4192e42a7.jpg 756,138,957,530,5 22,140,214,481,5 224,133,412,493,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/3bb4d6a27f653a99.jpg 161,37,516,635,5 399,64,681,633,5 600,70,832,624,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/9a382299bdb0c611.jpg 38,26,1016,712,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/5e9e94a96d262585.jpg 0,0,338,487,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/6c0494e9e48e3c0e.jpg 29,468,356,988,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/6e6b69c33a686820.jpg 296,0,835,668,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/7356274b6cff732c.jpg 280,362,503,758,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/a7485b2404fa52a4.jpg 335,47,685,677,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/44ae299d69e7b802.jpg 126,28,972,541,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/af7aaac7abe0a4af.jpg 283,68,836,538,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/3de51cc4a282e7bf.jpg 9,22,627,627,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/8a73d8a3cdd3ed92.jpg 184,41,957,679,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/bd4ed235f35664ae.jpg 186,80,511,612,5 535,93,813,609,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/379167d9b37e96b7.jpg 150,113,534,712,5 517,116,812,701,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/0ad4ecb55a49e546.jpg 205,218,451,639,5 458,32,806,618,5 459,32,805,621,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/ecaf97852570dac2.jpg 250,128,774,671,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/f9639cd5172a2cc6.jpg 179,15,533,422,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/03004bb1ff973420.jpg 0,149,515,728,5 618,131,1022,483,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/41a3de6f99d0d485.jpg 424,63,562,305,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/b938435c120b6169.jpg 494,4,856,613,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/b4930895be46afa8.jpg 8,67,547,683,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/acdd3ca7c69e89c5.jpg 424,216,474,309,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/64fca6c5148b8f9e.jpg 487,668,665,850,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/4a9199ec6e1e4760.jpg 139,0,819,755,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/1aec0b51b76ad884.jpg 296,33,748,684,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/2fb50b70518536db.jpg 0,0,1022,678,5
+/home/zhateyev/PycharmProjects/OIDv4_ToolKit/OID/Dataset/train/Mobile_phone/a63ec826110a9270.jpg 485,290,544,397,5

@@ -1,9 +1,9 @@
-from absl import app, flags, logging
+from absl import app, flags
 from absl.flags import FLAGS
-import os
+import os, sys
 import shutil
 import tensorflow as tf
-from core.yolov4 import YOLOv4,YOLOv3, YOLOv3_tiny, decode, compute_loss, decode_train
+from core.yolov4 import YOLOv4,YOLOv3, YOLOv3_tiny, compute_loss, decode_train
 from core.dataset import Dataset
 from core.config import cfg
 import numpy as np
@@ -106,6 +106,9 @@ def main(_argv):
                 prob_loss += loss_items[2]
 
             total_loss = giou_loss + conf_loss + prob_loss
+
+            if tf.math.is_nan(total_loss):
+                sys.exit()
 
             gradients = tape.gradient(total_loss, model.trainable_variables)
             optimizer.apply_gradients(zip(gradients, model.trainable_variables))
