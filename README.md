@@ -172,6 +172,8 @@ python convert_tflite.py --weights ./checkpoints/yolov4 --output ./data/udlnew.t
 
 python convert_tflite.py --weights ./data/yolov3-tiny.weights --output ./data/udlnew_tiny.tflite --tiny tiny=True
 
+python convert_tflite.py --weights ./checkpoints/yolov4 --output ./data/liveness-3.0.tflite --tiny tiny=True
+
 python detect.py --weights ./data/udl.tflite --framework tflite --size 416 --image ./data/udl29.jpg
 
 python detect.py --weights ./data/yolov4.tflite --framework tflite --size 416 --image ./data/kite.jpg

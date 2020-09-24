@@ -11,7 +11,7 @@ import tensorflow as tf
 
 flags.DEFINE_string('framework', 'tflite', '(tf, tflite')
 # flags.DEFINE_string('weights', './data/yolov3-tiny.weights',
-flags.DEFINE_string('weights', './data/liveness3.tflite',
+flags.DEFINE_string('weights', './data/liveness-4.0.tflite',
                     # flags.DEFINE_string('weights', './checkpoints/yolov4',
                     'path to weights file')
 flags.DEFINE_integer('size', 416, 'resize images to')
